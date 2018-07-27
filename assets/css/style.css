@@ -1,0 +1,71 @@
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.imagem-texto {
+    color: rgba(0,0,0,1);
+    font-size: 50px;
+}
+
+.titulo-noticia-recente {
+    border-radius: 40px;
+    background-color: rgba(0,0,0,0.8);
+    margin: 10px 10px; 
+}
+
+.card .card-image img{
+   height: 200px;
+
+}
+
+.btn-menu{
+    width: 100%;
+}
+
+img.materialboxed.imagem-noticia-detalhes {
+    height: 600px;
+    width: 100%
+}
+
+.parallax-container {
+      height: 400px;
+    }
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.tudo{
+	background-position: center;
+	background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .tudo {
+            padding-left: 0;
+    }
+}
